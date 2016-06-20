@@ -1,0 +1,205 @@
+@import url("//fonts.googleapis.com/css?family=Lato:400,400italic");
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  src: url("font/fontawesome-webfont.eot?#iefix") format('embedded-opentype'), url("font/fontawesome-webfont.woff") format('woff'), url("font/fontawesome-webfont.ttf") format('truetype'), url("font/fontawesome-webfont.svg#FontAwesomeRegular") format('svg');
+}
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1260px) {
+  .inner {
+    width: 100%;
+  }
+}
+#more-wrapper {
+  padding-top: 140px;
+  padding-bottom: 15px;
+}
+#more-wrapper .fa {
+  font-size: 44px;
+  color: #fff;
+}
+.block-container-gray {
+  background-color: #f0f0f0;
+}
+.content-wrapper {
+  padding-top: 40px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+.content-wrapper .content-title {
+  margin-top: 10px;
+}
+.content-wrapper .content-text {
+  font-size: 16px;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.content-wrapper .content-learn-more a {
+  border-radius: 0;
+}
+#header {
+  background: url("../images/background.png") no-repeat center center fixed;
+  background-size: cover;
+}
+#header .navbar-brand {
+  color: #fff;
+  font-size: 26px;
+  margin-right: 10px;
+}
+#header #contact-info-wrapper {
+  padding-top: 180px;
+  text-align: center;
+}
+#header #my-name {
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 14px;
+}
+#top-nav {
+  background: none;
+  border: none;
+}
+#top-nav li.active a {
+  background-color: transparent;
+}
+.social li {
+  padding: 0 !important;
+}
+.social a {
+  color: #224f75;
+  font-size: 22px;
+  cursor: pointer;
+}
+.social a:hover {
+  color: #285c89;
+}
+.work {
+  max-width: 900px;
+  margin: auto !important;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  border-left: 4px solid #337ab7;
+  margin-bottom: 20px;
+}
+.work-wrapper {
+  margin-bottom: 10px;
+}
+.work-image-wrapper,
+.work-content-wrapper {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  vertical-align: top;
+}
+.work-title {
+  font-size: 18px;
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+.work-content-wrapper ul {
+  padding-left: 30px;
+}
+.work-image {
+  width: 100%;
+}
+.seemore {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+}
+.work-image-wrapper:hover .work-image {
+  -webkit-filter: brightness(80%);
+}
+.work-image-wrapper:hover .seemore {
+  display: inline-block;
+}
+.year-wrapper h4 {
+  color: #286090;
+  border-bottom: 1px solid #eee;
+}
+#detail-header,
+.detail-screenshot {
+  margin: 0 auto 35px auto;
+  max-width: 1080px;
+  width: 100%;
+}
+#detail-header img,
+.detail-screenshot img {
+  width: 100%;
+  margin: auto;
+}
+#detail-more {
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+#detail-more .visit {
+  display: inline-block;
+  color: #000;
+  padding: 14px 30px;
+  border: 2px solid #000;
+  font-size: 14px;
+  margin-right: 20px;
+}
+#detail-more .visit:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #223752;
+  color: #fff;
+  border-color: #223752;
+}
+.footer-wrapper {
+  text-align: center;
+}
+#footer {
+  margin-top: 80px;
+}
+#introduction {
+  font-size: 22px;
+  color: #555;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+.content-section {
+  margin-bottom: 24px;
+}
+.record {
+  margin-bottom: 36px;
+}
+.section-title {
+  color: #888;
+  font-weight: 600;
+}
+.record-title,
+.record-name {
+  font-size: 24px;
+  color: #337ab7;
+  line-height: 24px;
+  vertical-align: middle;
+}
+.record-time {
+  margin-right: 26px;
+  color: #888;
+  font-weight: 600;
+}
+.record-note {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 12px;
+  margin-left: 1px;
+}
+.record-text {
+  color: #333;
+}
+.contact-link {
+  margin-right: 28px;
+}
